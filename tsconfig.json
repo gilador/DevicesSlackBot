@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "preserveConstEnums": true,
+    "outDir": "build",
+    "baseUrl": "src",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "paths": {
+      "@src/*": [
+        "*"
+      ]
+    },
+    "lib": [
+      "es5",
+      "es6",
+      "dom",
+      "es2015.core",
+      "es2015.collection",
+      "es2015.generator",
+      "es2015.iterable",
+      "es2015.promise",
+      "es2015.proxy",
+      "es2015.reflect",
+      "es2015.symbol",
+      "es2015.symbol.wellknown",
+      "esnext.asynciterable"
+    ]
+  },
+  "exclude": [
+    "logs",
+    "node_modules"
+  ]
+}

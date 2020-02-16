@@ -1,0 +1,87 @@
+{
+  data: {
+    id: '36db0d7d-6532-4d2b-81f0-f5115d696337',
+    createdAt: '2019-08-07T06:29:39.894Z',
+    updatedAt: '2019-08-07T06:29:44.055Z',
+    baseCurrencyAmount: 50,
+    quoteCurrencyAmount: 0.23897,
+    feeAmount: 4.99,
+    extraFeeAmount: 0.25,
+    areFeesIncluded: false,
+    status: 'completed',
+    walletAddress: '0xA38fC046fbCd01c847CC418b221C78B39Eb0CE0F',
+    walletAddressTag: null,
+    cryptoTransactionId: '0xb9dd0882af7f3aa8dcda8b25a61157e7dec872a257486ba2a4b5b99abd32df04',
+    failureReason: null,
+    returnUrl: 'https://buy-staging.moonpay.io/transaction_receipt',
+    redirectUrl: null,
+    baseCurrencyId: '71435a8d-211c-4664-a59e-2a5361a6c5a7',
+    currencyId: '8d305f63-1fd7-4e01-a220-8445e591aec4',
+    customerId: '40c8e74f-d9d7-46fc-a313-d76d92b17b9c',
+    cardId: '362e1054-a7d9-47e5-a1fb-916a73aa1d89',
+    eurRate: 1,
+    usdRate: 1.12045,
+    gbpRate: 0.92199
+  },
+  type: 'transaction_updated',
+  externalCustomerId: '76659fc6-364d-45b3-b7ab-66b046e2ee78'
+}
+at=info method=POST path="/tx" host=moonpaytesting.herokuapp.com request_id=2e6cc434-8642-40e5-aee8-31d1cec0da9b fwd="54.170.19.180" dyno=web.1 connect=0ms service=2ms status=200 bytes=156 protocol=https
+at=info method=POST path="/tx" host=moonpaytesting.herokuapp.com request_id=4100a781-b829-48a5-8344-7a60924bb33c fwd="54.170.19.180" dyno=web.1 connect=0ms service=2ms status=200 bytes=156 protocol=https
+{
+  data: {
+    id: '6621312f-e5c9-4b8e-a8b2-2d972fff1d80',
+    createdAt: '2019-08-07T06:32:49.099Z',
+    updatedAt: '2019-08-07T06:32:58.313Z',
+    baseCurrencyAmount: 50,
+    quoteCurrencyAmount: 0.00464,
+    feeAmount: 4.99,
+    extraFeeAmount: 0.25,
+    areFeesIncluded: false,
+    status: 'completed',
+    walletAddress: '2N8z6Zvo33gJ1cBbtS8ZhrtSu2qWus37gT4',
+    walletAddressTag: null,
+    cryptoTransactionId: '5a5054747d5125e8894016368bbefc70d4cb618ed6810938d68afd867a3e1a1f',
+    failureReason: null,
+    returnUrl: 'https://buy-staging.moonpay.io/transaction_receipt',
+    redirectUrl: null,
+    baseCurrencyId: '71435a8d-211c-4664-a59e-2a5361a6c5a7',
+    currencyId: 'a18a8d0b-502c-48b9-ab6b-e2638fba5862',
+    customerId: '40c8e74f-d9d7-46fc-a313-d76d92b17b9c',
+    cardId: '362e1054-a7d9-47e5-a1fb-916a73aa1d89',
+    eurRate: 1,
+    usdRate: 1.12044,
+    gbpRate: 0.92189
+  },
+  type: 'transaction_updated',
+  externalCustomerId: '76659fc6-364d-45b3-b7ab-66b046e2ee78'
+}
+at=info method=POST path="/tx" host=moonpaytesting.herokuapp.com request_id=a38c146f-2d16-40d1-8ec5-6ecdeff588f1 fwd="54.170.19.180" dyno=web.1 connect=0ms service=2ms status=200 bytes=156 protocol=https
+{
+  data: {
+    id: '6621312f-e5c9-4b8e-a8b2-2d972fff1d80',
+    createdAt: '2019-08-07T06:32:49.099Z',
+    updatedAt: '2019-08-07T06:32:58.313Z',
+    baseCurrencyAmount: 50,
+    quoteCurrencyAmount: 0.00464,
+    feeAmount: 4.99,
+    extraFeeAmount: 0.25,
+    areFeesIncluded: false,
+    status: 'completed',
+    walletAddress: '2N8z6Zvo33gJ1cBbtS8ZhrtSu2qWus37gT4',
+    walletAddressTag: null,
+    cryptoTransactionId: '5a5054747d5125e8894016368bbefc70d4cb618ed6810938d68afd867a3e1a1f',
+    failureReason: null,
+    returnUrl: 'https://buy-staging.moonpay.io/transaction_receipt',
+    redirectUrl: null,
+    baseCurrencyId: '71435a8d-211c-4664-a59e-2a5361a6c5a7',
+    currencyId: 'a18a8d0b-502c-48b9-ab6b-e2638fba5862',
+    customerId: '40c8e74f-d9d7-46fc-a313-d76d92b17b9c',
+    cardId: '362e1054-a7d9-47e5-a1fb-916a73aa1d89',
+    eurRate: 1,
+    usdRate: 1.12044,
+    gbpRate: 0.92189
+  },
+  type: 'transaction_updated',
+  externalCustomerId: '76659fc6-364d-45b3-b7ab-66b046e2ee78'
+}
